@@ -7,4 +7,9 @@
     <string name="nama1">Gibran Saputra</string>
     <string name="tlp1">085105123987</string>
     <string name="alamat1">Pundong, Bantul</string>
+
+    <string name="nama2">Mustofa</string>"
+    <string name="tlp2">089671238783</string>
+    <string name="alamat2">Pajangan, Bantul</string>
+
 </resources>
