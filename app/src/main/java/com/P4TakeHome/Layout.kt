@@ -8,7 +8,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun TampilanUtama(modifier: Modifier){
@@ -19,9 +21,13 @@ fun TampilanUtama(modifier: Modifier){
     ) {
         Text(
             stringResource(R.string.prodi),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
         )
         Text(
             stringResource(R.string.univ),
+            fontSize = 17.sp,
+            fontWeight = FontWeight.Bold
         )
     }
 }
