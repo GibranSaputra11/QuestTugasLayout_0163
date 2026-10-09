@@ -1,6 +1,7 @@
 package com.P4TakeHome
 
 import android.os.Bundle
+import android.text.Layout
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -20,10 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HomeWorkP4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    TampilanUtama(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
