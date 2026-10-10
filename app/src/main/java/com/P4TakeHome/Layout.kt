@@ -82,21 +82,21 @@ fun Card(
             ){
                 Text(
                     text = nama,
-                    fontSize = 30.sp,
+                    fontSize = 20.sp,
                     color = colorResource(id = R.color.white),
+                    fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(top = 15.dp)
                 )
                 Text(
                     text = tlp,
-                    fontSize = 20.sp,
+                    fontSize = 10.sp,
                     color = colorResource(id = R.color.white),
-                    modifier = Modifier.padding(top = 15.dp)
                 )
                 Text(
                     text = alamat,
-                    fontSize = 20.sp,
+                    fontSize = 10.sp,
                     color = colorResource(id = R.color.white),
-                    modifier = Modifier.padding(top = 15.dp)
+                    modifier = Modifier.padding(bottom = 15.dp)
                 )
             }
             Spacer(modifier = Modifier.width(5.dp))
