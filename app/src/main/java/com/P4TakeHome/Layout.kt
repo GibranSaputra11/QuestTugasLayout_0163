@@ -42,6 +42,14 @@ fun TampilanUtama(modifier: Modifier){
             fontSize = 17.sp,
             fontWeight = FontWeight.Bold
         )
+        Spacer(modifier = Modifier.height(25.dp))
+        Card(
+            modifier = Modifier,
+            stringResource(R.string.nama1),
+            stringResource(R.string.tlp1),
+            stringResource(R.string.alamat1),
+            colorResource(id = R.color.card_1)
+        )
     }
 }
 
