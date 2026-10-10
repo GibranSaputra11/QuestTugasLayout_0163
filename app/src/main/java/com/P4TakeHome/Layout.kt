@@ -1,5 +1,6 @@
 package com.P4TakeHome
 
+import android.graphics.Color
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -37,7 +38,10 @@ fun TampilanUtama(modifier: Modifier){
 @Composable
 fun Card(
     modifier: Modifier,
-
+    nama: String,
+    tlp: String,
+    alamat: String,
+    bgCard: Color,
 ){
 
 }
