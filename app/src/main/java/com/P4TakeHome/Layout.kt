@@ -50,6 +50,13 @@ fun TampilanUtama(modifier: Modifier){
             stringResource(R.string.alamat1),
             colorResource(id = R.color.card_1)
         )
+        Card(
+            modifier = Modifier,
+            stringResource(R.string.nama2),
+            stringResource(R.string.tlp2),
+            stringResource(R.string.alamat2),
+            colorResource(id = R.color.card_2)
+        )
     }
 }
 
