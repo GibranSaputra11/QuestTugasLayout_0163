@@ -78,6 +78,12 @@ fun Card(
                     color = colorResource(id = R.color.white),
                     modifier = Modifier.padding(top = 15.dp)
                 )
+                Text(
+                    text = tlp,
+                    fontSize = 20.sp,
+                    color = colorResource(id = R.color.white),
+                    modifier = Modifier.padding(top = 15.dp)
+                )
             }
         }
     }
