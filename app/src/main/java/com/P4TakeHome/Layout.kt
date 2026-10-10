@@ -43,35 +43,35 @@ fun TampilanUtama(modifier: Modifier){
             fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.height(25.dp))
-        Card(
+        TemplateCard(
             modifier = Modifier,
             stringResource(R.string.nama1),
             stringResource(R.string.tlp1),
             stringResource(R.string.alamat1),
             colorResource(id = R.color.card_1)
         )
-        Card(
+        TemplateCard(
             modifier = Modifier,
             stringResource(R.string.nama2),
             stringResource(R.string.tlp2),
             stringResource(R.string.alamat2),
             colorResource(id = R.color.card_2)
         )
-        Card(
+        TemplateCard(
             modifier = Modifier,
             stringResource(R.string.nama3),
             stringResource(R.string.tlp3),
             stringResource(R.string.alamat3),
             colorResource(id = R.color.card_3)
         )
-        Card(
+        TemplateCard(
             modifier = Modifier,
             stringResource(R.string.nama4),
             stringResource(R.string.tlp4),
             stringResource(R.string.alamat4),
             colorResource(id = R.color.card_4)
         )
-        Card(
+        TemplateCard(
             modifier = Modifier,
             stringResource(R.string.nama5),
             stringResource(R.string.tlp5),
@@ -82,7 +82,7 @@ fun TampilanUtama(modifier: Modifier){
 }
 
 @Composable
-fun Card(
+fun TemplateCard(
     modifier: Modifier,
     nama: String,
     tlp: String,
