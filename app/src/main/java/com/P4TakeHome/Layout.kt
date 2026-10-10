@@ -17,8 +17,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -67,6 +69,16 @@ fun Card(
                     .padding(15.dp)
             )
             Spacer(modifier = Modifier.width(5.dp))
+            Column(
+                modifier = Modifier.weight(1f)
+            ){
+                Text(
+                    text = nama,
+                    fontSize = 30.sp,
+                    color = colorResource(id = R.color.white),
+                    modifier = Modifier.padding(top = 15.dp)
+                )
+            }
         }
     }
 }
