@@ -91,6 +91,14 @@ fun Card(
                     modifier = Modifier.padding(top = 15.dp)
                 )
             }
+            Spacer(modifier = Modifier.width(5.dp))
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(100.dp)
+                    .padding(15.dp)
+            )
         }
     }
 }
